@@ -1,1 +1,506 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="STURM MSCA Postdoctoral Fellowship" />
+    <meta name="author" content="" />
+    <title>STURM SmarT sub-pixel URban flood Mapping from open earth observation and crowdsourcing</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.4.2/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <!-- Core theme CSS (includes Bootstrap and Agency)-->
+    <link href="assets/css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top"><img src="assets/img/logos/navbar-logo-white.svg" alt="..." /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Outcomes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container">
+            <div class="masthead-heading text-uppercase">STURM</div>
+            <div class="masthead-subheading">SmarT sub-pixel URban flood Mapping from open earth observation and
+                crowdsourcing</div>
+            <a class="btn btn-primary btn-xl text-uppercase m-2" href="#about">About</a>
+            <a class="btn btn-outline-primary btn-xl text-uppercase m-2" href="https://doi.org/10.3030/101105589"
+                target="_blank" rel="noopener noreferrer">https://doi.org/10.3030/101105589</a>
+
+        </div>
+    </header>
+    <!-- About-->
+    <section class="page-section" id="about">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">About</h2>
+                <h3 class="section-subheading text-muted">STURM is <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/" target="_blank" rel="noopener noreferrer">Marie Skłodowska-Curie Action</a> project at <a
+                    href="https://www.weo-water.com/" target="_blank" rel="noopener noreferrer">WEO</a> in Luxembourg.</h3>
+                
+                <h4 class="text-center">Background </h4>
+                <p>
+                    Floods stand are major natural disasters with severe impacts in urban areas, where
+                    the confluence of increasingly high population densities, intricate infrastructures, and the
+                    escalating effects of climate change trends exacerbate the risk. <br>
+                    Reliable and timely monitoring is critical for urban flood resilience in terms of pre-disaster
+                    preparedness, emergency
+                    response, and post-disaster relief. <br>
+                    Remote Sensing techniques hold the potential to accurately assess flood extent; however, data can be
+                    expensive and
+                    inaccessible. Open Remote Sensing harbors untapped potential due to its relatively coarse
+                    resolution.
+                    Furthermore, recent strides in deep learning-based computer vision techniques, coupled with novel
+                    observational
+                    opportunities, offer a promising avenue for gathering valuable insights on flood extent and depth,
+                    amalgamating RS and data-driven approaches.
+                </p>
+                <h4 class="text-center">Objectives </h4>
+                <p>
+                    The STURM project aims to advance urban flood resilience research by combining open-source
+                    Sentinel imagery from remote sensing and crowdsourced semantic and visual data through deep
+                    learning techniques. The primary objective is to overcome the constraints of spatial resolution
+                    and data scarcity, enriching our understanding of urban flood dynamics. This project aspires
+                    to leverage the capabilities of emerging observation systems, providing a globally consistent,
+                    open-source framework for comprehensive multi-source observations of hydroclimatic hazardous events
+                    in urban areas. By doing so, STURM aims to foster enhanced flood resilience strategies and
+                    address the hydrological challenges of the 2030s and beyond.
+                </p>
+                <h4 class="text-center">Methodology </h4>
+                <p>
+                    STURM employs an innovative methodology that harnesses the power of deep learning and data fusion to
+                    achieve accurate urban flood extent and depth mapping. By leveraging open RS Sentinel imagery and
+                    integrating crowdsourced semantic and visual data, this approach overcomes the limitations imposed
+                    by conventional spatial resolution. The project's novel data fusion paradigm enables sub-pixel
+                    mapping and precise measurements from street-level images, offering insights into hydroclimatic
+                    events that were previously unattainable. The developed deep learning-based pipeline ensures
+                    efficient utilization of globally accessible data sources while minimizing the consumption of human
+                    and economic resources. This methodology not only promises wide-ranging applicability but also
+                    provides an essential benchmark for the validation of hydrological models.
+                </p>
+                <h4 class="text-center">Funding </h4>
+                <p>
+                    STURM is an EU-funded R&I project funded under the Marie Skłodowska-Curie Actions (MSCA)
+                    Postdoctoral Fellowships - European Fellowships (<a href="https://doi.org/10.3030/101105589"
+                        target="_blank" rel="noopener noreferrer">Grant agreement ID: 101105589</a>) and hosted at <a
+                        href="https://www.weo-water.com/" target="_blank" rel="noopener noreferrer">WEO</a>. </p>
+                <p>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="section-heading text-muted text-center">Project Timeline</h2>
+            <ul class="timeline">
+                <li class="timeline">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg"
+                            alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>June 2023</h4>
+                            <h4 class="subheading">STURM Project Start</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
+                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg"
+                            alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>September 2023</h4>
+                            <h4 class="subheading"> Milestone - Public Project Launch</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
+                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-image">                        <h4>
+                        
+                        <br />
+                        ...
+                        <br />
+                    </h4></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>Work in progress</h4>
+                            <h4 class="subheading"></h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Stay tuned for updates!</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- scroll down -->
+        <div class="scroll-down">
+            <a title="Scroll down" href="#resources">
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                <span class="text-dark"> Scroll Down</span>
+            </a>
+        </div>
+    </section>
+    <!-- Resources-->
+    <section class="page-section" id="resources">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Resources</h2>
+                <h3 class="section-subheading text-muted">Tips for writing a successful MSCA Postdoctoral Fellowships Proposal </h3>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Lorem ipsum</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
+                        architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Lorem ipsum</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
+                        architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Lorem ipsum</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
+                        architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+            </div>
+        </div>
+        <!-- scroll down -->
+        <div class="scroll-down">
+            <a title="Scroll down" href="#portfolio">
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                <span class="text-dark"> Scroll Down</span>
+            </a>
+        </div>
+    </section>
+    <!-- Portfolio Grid-->
+    <section class="page-section" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Outcomes</h2>
+                <h3 class="section-subheading text-muted">Stay tuned for updates on STURM progress and achievements.
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 1-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Media</div>
+                            <div class="portfolio-caption-subheading text-muted">Coming soon</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 2-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Data & Code</div>
+                            <div class="portfolio-caption-subheading text-muted">Coming soon</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 3-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Publications</div>
+                            <div class="portfolio-caption-subheading text-muted">Coming Soon</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- scroll down -->
+        <div class="scroll-down">
+            <a title="Scroll down" href="#team">
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                <span class="text-dark"> Scroll Down</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Team-->
+    <section class="page-section" id="team">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Team</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/nicla.jpg" alt="..." />
+                        <h4>Nicla M. Notarangelo</h4>
+                        <p class="text-muted">Marie Skłodowska-Curie Postdoctoral Fellow <br> Principal Investigator</p>
+                        <a class="btn btn-outline-primary btn-social mx-2"
+                            href="https://www.researchgate.net/profile/Nicla-Notarangelo" target="_blank"
+                            rel="noopener noreferrer" aria-label="Nicla Notarangelo Researchgate Profile"><i
+                                class="fab fa-researchgate"></i></a>
+                        <a class="btn btn-outline-primary btn-social mx-2" href="https://twitter.com/NiclaMN"
+                            target="_blank" rel="noopener noreferrer" aria-label="Nicla Notarangelo Twitter Profile"><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-primary btn-social mx-2"
+                            href="https://www.linkedin.com/in/niclanotarangelo/" target="_blank"
+                            rel="noopener noreferrer" aria-label="Nicla Notarangelo LinkedIn Profile"><i
+                                class="fab fa-linkedin-in"></i></a>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/charlotte.jpg" alt="..." />
+                        <h4>Charlotte Wirion</h4>
+                        <p class="text-muted">Supervisor</p>
+                        <a class="btn btn-outline-primary btn-social mx-2"
+                            href="https://www.researchgate.net/profile/Charlotte-Wirion" target="_blank"
+                            rel="noopener noreferrer" aria-label="Charlotte Wirion Researchgate Profile"><i
+                                class="fab fa-researchgate"></i></a>
+                        <a class="btn btn-outline-primary btn-social mx-2"
+                            href="https://www.linkedin.com/in/charlotte-wirion-429468100/" target="_blank"
+                            rel="noopener noreferrer" aria-label="Charlotte Wirion LinkedIn Profile"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <a href="https://www.weo-water.com/" target="_blank" rel="noopener noreferrer"><img
+                                class="mx-auto rounded-circle" src="assets/img/team/weo_square.png" alt="..." /></a>
+                        <h4>WEO</h4>
+                        <p class="text-muted">Host Organization</p>
+                        <a class="btn btn-outline-primary btn-social mx-2" href="https://twitter.com/weo_water"
+                            target="_blank" rel="noopener noreferrer" aria-label="WEO Twitter Profile"><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-primary btn-social mx-2"
+                            href="https://www.linkedin.com/company/weo-water/" target="_blank" rel="noopener noreferrer"
+                            aria-label="WEO LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- scroll down -->
+        <div class="scroll-down">
+            <a title="Scroll down" href="#contact">
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                <span class="text-dark"> Scroll Down</span>
+            </a>
+        </div>
+    </section>
+    <!-- Contact-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Contact Us</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 align-items-center">
+                    <iframe width="100%" height="350"
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=6.135453879833222%2C49.603632223175126%2C6.137964427471161%2C49.6049324269724&amp;layer=mapnik&amp;marker=49.604282329408015%2C6.136709153652191"
+                        style="border: 0" class="map"></iframe>
+                </div>
+                <div class="col-lg-6 align-items-center">
+                    <!-- START: Info -->
+                    <div>
+                        <h5>Email</h5>
+                        <p>
+                            nnotarangelo(at)weo-water.com
+                        </p>
+                    </div>
+                    <div>
+                        <br>
+                        <br>
+                        <h5>WEO <br> Luxembourg-City Incubator </h5>
+                        <p>
+                        <Address>WEO
+                            Luxembourg-City Incubator <br>
+                            9 rue du Laboratoire <br>
+                            L-1911 Luxembourg</Address>
+                        </p>
+                    </div>
+                    <div>
+                        <a class="btn btn-outline-secondary btn-social mx-2" href="#!"><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-secondary btn-social mx-2" href="#!"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-secondary btn-social mx-2" href="#!"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <!-- END: Info -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 text-lg-start"><img src="assets/img/logos/EN_FundedbytheEU_RGB_POS.png"
+                            style="height:80px;"></div>
+                    <div class="col-lg-6 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!"></a>
+                        <a href="https://www.weo-water.com/" target="_blank" rel="noopener noreferrer"> <img
+                                src="assets/img/logos/weo logo_web.png" style="height:80px; margin: 2%;"></a>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 text-lg-start tiny">Views and opinions expressed are those of the author(s)
+                        only and do not necessarily reflect those of the European Union or the European Research
+                        Executive Agency (REA). Neither the European Union nor the granting authority
+                        can be held responsible for them.</div>
+                    <div class="col-lg-6 text-lg-end text-muted">Copyright &copy; STURM 2023 - Designed by <a
+                            href="https://github.com/niclanota">N. M. Notarangelo</a> </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- go-top -->
+    <div class="go-top">
+        <a title="Back to Top" href="#top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+    </div>
+
+
+    <!-- Portfolio Modals-->
+    <!-- Portfolio item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Media</h2>
+                                <p class="item-intro text-muted">Coming soon</p>
+                                <!-- <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." /> -->
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem
+                                    culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
+                                    expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 2 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Code & Tools</h2>
+                                <p class="item-intro text-muted">Coming soon</p>
+                                <!-- <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." /> -->
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem
+                                    culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
+                                    expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 3 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Publications</h2>
+                                <p class="item-intro text-muted">Coming soon</p>
+                                <!-- <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." /> -->
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem
+                                    culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
+                                    expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
