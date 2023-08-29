@@ -17,8 +17,8 @@
     <link href="assets/css/styles.css" rel="stylesheet" />
     <!-- Posthog analytics -->
     <script>
-        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
-        posthog.init('phc_5eHUqENMHw1CQZP945BGSXh3BCUqVlsAs7G0u5YDxTc',{api_host:'https://eu.posthog.com'})
+        !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.async = !0, p.src = s.api_host + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+        posthog.init('phc_5eHUqENMHw1CQZP945BGSXh3BCUqVlsAs7G0u5YDxTc', { api_host: 'https://eu.posthog.com' })
     </script>
 </head>
 
@@ -54,7 +54,7 @@
 
         </div>
         <!-- scroll down -->
-        <div class="scroll-down">
+        <div class="scroll-down mt-4" style="bottom: -10rem;">
             <a title="Scroll down" href="#about">
                 <i class="fa fa-chevron-down" aria-hidden="true"></i>
                 <span class="text-light"> Scroll Down</span>
@@ -68,7 +68,7 @@
                 <h2 class="section-heading text-uppercase">About</h2>
                 <h3 class="section-subheading text-muted">STURM is <a
                         href="https://marie-sklodowska-curie-actions.ec.europa.eu/" target="_blank"
-                        rel="noopener noreferrer">Marie Skłodowska-Curie Action</a> project at <a
+                        rel="noopener noreferrer">Marie Skłodowska-Curie Action</a> (MSCA) project at <a
                         href="https://www.weo-water.com/" target="_blank" rel="noopener noreferrer">WEO</a> in
                     Luxembourg.</h3>
 
@@ -132,7 +132,10 @@
                             <h4 class="subheading">STURM Project Start</h4>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted"> Following the selection of STURM proposal in the call <a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-msca-2022-pf-01-01" target="_blank">HORIZON-MSCA-2022-PF-01-01</a> and the signature of the grant agreement, the project kicks off.
+                            <p class="text-muted"> Following the selection of STURM proposal in the call <a
+                                    href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-msca-2022-pf-01-01"
+                                    target="_blank" rel="noopener noreferrer">HORIZON-MSCA-2022-PF-01-01</a> and the
+                                signature of the grant agreement, the project kicks off.
                             </p>
                         </div>
                     </div>
@@ -146,7 +149,8 @@
                             <h4 class="subheading"> Milestone - Public Project Launch</h4>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">Committing itself to transparent communication and open dissemination, STURM debuts  through its website and Social Media Channels.</p>
+                            <p class="text-muted">Committing itself to transparent communication and open dissemination,
+                                STURM debuts through its website and Social Media Channels.</p>
                         </div>
                     </div>
                 </li>
@@ -184,11 +188,17 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Resources</h2>
-                <h3 class="section-subheading text-muted">Tips for writing a successful MSCA Postdoctoral Fellowships
-                    Proposal </h3>
-                <h2 class="section-subheading">The 2023 call for <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships" target="_top" class="external-link">MSCA-PF</a> is open! </h2>
+                <h3 class="section-subheading text-muted">Tips, materials, and links for writing a winning MSCA Postdoctoral Fellowship proposal and navigating project implementation.</h3>
+                <h3 class="section-subheading"><i class="fas fa-clock text-primary"></i> The 2023 call for <a
+                        href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships"
+                        target="_top" class="external-link">MSCA-PF</a> is open! </h3>
 
             </div>
+            <blockquote class="blockquote text-center">
+                <p>Who, what, and where, by what helpe, and by whose: <br>
+                    Why, how, and when, doe many things disclose.</p>
+                <footer class="blockquote-footer">Thomas Wilson,  <cite title="Source Title">The Arte of Rhetorique Book I</cite>.</footer>
+              </blockquote>
             <!-- <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -218,6 +228,98 @@
                         architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
             </div> -->
+
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="team-member">
+                        <h5>Horizon Europe <a
+                                href="https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en"
+                                target="_blank" rel="noopener noreferrer"><br><i class="fa fa-link"
+                                    aria-hidden="true"></i></a></h5>
+                        <p class="text-muted">Explore the EU’s key funding programme for research and innovation until
+                            2027.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="team-member">
+                        <h5> MSCA <a href="https://ec.europa.eu/research/mariecurieactions/" target="_blank"
+                                rel="noopener noreferrer"> <br><i class="fa fa-link" aria-hidden="true"></i></a></h5>
+                        <p class="text-muted">Learn about the different types of MSCA funding and actions available.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="team-member">
+                        <h5> EURAXESS portal <a href="https://euraxess.ec.europa.eu/" target="_blank"
+                                rel="noopener noreferrer"> <br><i class="fa fa-link" aria-hidden="true"></i></a></h5>
+                        <p class="text-muted">Find job, funding, and hosting opportunities in Europe.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="team-member">
+                        <h5> Cordis portal <a href="https://cordis.europa.eu/en" target="_blank"
+                                rel="noopener noreferrer"> <br><i class="fa fa-link" aria-hidden="true"></i></a></h5>
+                        <p class="text-muted">Explore the official database of EU-funded projects and result.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="team-member">
+                        <h5> Openaire - FAIR <a href="https://www.openaire.eu/how-to-make-your-data-fair" target="_blank"
+                                rel="noopener noreferrer"> <br><i class="fa fa-link" aria-hidden="true"></i></a></h5>
+                        <p class="text-muted">Learn how to make your research data FAIR (Findable, Accessible, Interoperable, and Reusable).</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="team-member">
+                        <h5> Openaire - DMP <a href="https://www.openaire.eu/how-to-create-a-data-management-plan" target="_blank"
+                                rel="noopener noreferrer"> <br><i class="fa fa-link" aria-hidden="true"></i></a></h5>
+                        <p class="text-muted">Learn how to make Data Management Plans.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2">
+                    <div class="team-member">
+                        <h5>Guide for Applicants <a
+                                href="https://rea.ec.europa.eu/system/files/2023-06/Guide%20for%20applicants_MSCA%20PF%202023%20rev%202.1%20.pdf"
+                                target="_blank" rel="noopener noreferrer"> <br><i class="fa fa-download"
+                                    aria-hidden="true"></i>
+                            </a> </h5>
+                        <p class="text-muted">Download the guide for applicants to MSCA-PF.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="team-member">
+                        <h5>MSCA-NET Handbook <a
+                                href="https://msca-net.eu/wp-content/uploads/2023/06/MSCA_PF2023_handbook_final.pdf"
+                                target="_blank" rel="noopener noreferrer"> <br><i class="fa fa-download"
+                                    aria-hidden="true"></i>
+                            </a> </h5>
+                        <p class="text-muted">Download the handbook by MSCA-NET, the EU-funded project of National
+                            Contact Points (NCP).</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="team-member">
+                        <h5>REA short guide <a
+                                href="https://rea.ec.europa.eu/system/files/2022-05/Most%20common%20mistakes%20in%20MSCA-PF%20submission%20forms.pdf"
+                                target="_blank" rel="noopener noreferrer"> <br><i class="fa fa-download"
+                                    aria-hidden="true"></i>
+                            </a> </h5>
+                        <p class="text-muted">Check the most frequent mistakes in the PF proposal submission.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="team-member">
+                        <h5>Career development plan guide <br><a
+                                href="https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5bd4ed377&appId=PPGMS"
+                                target="_blank" rel="noopener noreferrer"><br><i class="fa fa-download"
+                                    aria-hidden="true"></i></a> </h5>
+                        <p class="text-muted">Download the handbook aimed at First Stage and Recognized Researchers.</p>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
         <!-- scroll down -->
         <div class="scroll-down">
@@ -375,7 +477,7 @@
                 </div>
                 <div class="col-lg-6">
                     <!-- START: Info -->
-                    
+
                     <div class="p-3">
                         <a class="btn btn-outline-secondary btn-social mx-2" href="#!"><i
                                 class="fab fa-twitter"></i></a>
