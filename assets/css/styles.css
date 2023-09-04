@@ -234,6 +234,7 @@ address {
 
 ol,
 ul {
+  list-style-type: square;
   padding-left: 2rem;
 }
 
